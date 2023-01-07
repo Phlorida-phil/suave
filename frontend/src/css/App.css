@@ -1,0 +1,310 @@
+/* GLOBAL STYLES */
+
+.App {
+  text-align: center;
+  padding: 1rem;
+  background-color: #9CD3D8;
+  color: #1f1f1f;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  margin: .25rem;
+}
+
+.banner {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.login {
+  position: absolute;
+  margin-top: -5rem;
+  margin-left: 93vw;
+}
+
+.btn {
+  margin: 1rem;
+  height: 2rem;
+  border-width: .5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 8rem;
+  border-radius: 10px;
+}
+
+.btn-small {
+  color: #fefefe;
+  border-width: .5px;
+  height: 1.5rem;
+  width: 5rem;
+  margin: 1rem 2rem;
+  border-radius: 10px;
+}
+
+/* NAV STYLES */
+
+.nav-bar {
+  width: 100vw;
+  height: 10vw;
+  background-color: 0396A6;
+}
+
+.nav-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* MODAL STYLES */
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 2rem;
+  background-color: #eee;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  border-radius: .5rem;
+  align-items: center;
+}
+
+.modal-input {
+  width: 100%;
+  height: 1.75rem;
+  border-radius: 5px;
+  margin: .5rem 0;
+  border-width: 1px;
+}
+
+
+
+/* PROGRESS BAR STYLES */
+
+.progress-section {
+  width: 100vw;
+  height: 15vw;
+  display: flex;
+}
+
+.progress-title {
+  font-size: 1.25rem;
+  margin: 0 0 0 3rem;
+  padding: 1rem;
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  height: 11vw;
+  width: 10vw;
+  z-index: 1;
+  box-shadow: .05rem 0rem #000;
+}
+
+.progress-header {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.progress-bar {
+  width: 80vw;
+  height: 11.1vw;
+  border-radius: 15px;
+  align-items: flex-start;
+  margin-left: -1.75rem;
+  padding: .5rem;
+  padding-left: 3rem;
+  display: flex;
+
+  background: #0396A6;
+  box-shadow: inset 5px 5px 10px #026671,
+              inset -5px -5px 10px #04c6db;
+  padding: 1rem;
+}
+
+.progress-card {
+  height: 10vw;
+  max-width: 16vw;
+  border-radius: 5px;
+  padding: 1rem .5rem 0;
+  margin-left: 2rem;
+  margin-right: 1rem;
+
+  background-color: #F2F2F2;
+  box-shadow:  3px 3px 6px #797979,
+             -3px -3px 6px #797979;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.progress-list {
+  margin-bottom: 1rem;
+}
+
+.major-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 7%;
+}
+
+.task-card {
+  background-color: #F2F2F2;
+  max-width: 33vw;
+  min-width: 15vw;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+
+  box-shadow:  2px 2px 5px #616161,
+             -2px -2px 5px #ffffff;
+}
+
+.task-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.task-timeline {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.budget-info {
+  font-size: 1.25rem;
+  margin: .75rem;
+}
+
+
+/* PROJECT DETAILS STYLES */
+
+.budget-items {
+  display: flex;
+  justify-content: center;
+}
+
+.budget-card{
+  width: 15vw;
+  margin: 2rem 4rem;
+  padding: 1rem;
+
+  border-radius: 10px;
+  background: linear-gradient(145deg, #03a1b2, #038795);
+  box-shadow:  15px 15px 32px #02636e,
+               -15px -15px 32px #04c9de;
+
+}
+
+.budget-detail {
+  margin: .5rem;
+  font-size: 2rem;
+}
+
+.task-body {
+  border-radius: 30px;
+  background: #0396A6;
+  box-shadow: inset 5px 5px 10px #026671,
+              inset -5px -5px 10px #04c6db;
+  padding: 1rem;
+}
+
+.detail-list {
+  margin: 2rem 0;
+}
+
+.task-section {
+  text-align: center;
+  justify-content: center;
+}
+
+.detail-header {
+
+  margin: -1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.task-row {
+  border-radius: 15px;
+  background: #9CD3D8;
+  box-shadow:  5px 5px 10px #6a8f93,
+               -5px -5px 10px #ceffff;
+}
+
+.task-detail {
+  display: flex;
+  justify-content: center;
+
+}
+
+.task-headers {
+  margin: 1rem 3rem;
+  width: 10vw;
+  text-align: center;
+}
+
+.task-info {
+  margin: 1rem 3rem .25rem;
+  width: 10vw;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+/* BUTTONS STYLES */
+
+.add-button {
+  border-width: .5px;
+  padding: .5rem;
+  font-size: 1.5rem;
+
+  border-radius: 15px;
+  background: linear-gradient(145deg, #f1d5b1, #cbb395);
+  box-shadow:  1px 1px 5px #b49f84,
+               -1px -1px 5px #ffefc6;
+}
+
+
+.btn-delete {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ff0549, #e6053d);
+  box-shadow:  1px 1px 3px #e3043d,
+               -1px -1px 3px #ff064b;
+}
+
+.btn-edit {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #c6ba40, #a79d36);
+  box-shadow:  2px 1px 3px #a59b35,
+               -2px -1px 3px #cdc143;
+}
+
+.btn-cancel {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #aa9898, #8f8080);
+  box-shadow:  2px 1px 3px #726666,
+               -2px -1px 3px #ccb6b6;
+}
+
+.btn-submit {
+  background: linear-gradient(145deg, #27abfe, #2090d5);
+  box-shadow:  2px 1px 3px #1a73ab,
+               -2px -1px 3px #2ecdff;
+}
